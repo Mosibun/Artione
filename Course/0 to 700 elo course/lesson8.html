@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lesson.css">
+    <title>Lesson-8: Castling</title>
+</head>
+<body>
+    <header>Lesson-8: Castling</header>
+    <div class="lesson-text">
+        <br><br>
+        Castling is a special move in chess. It consists of moving the king two squares toward a rook
+        on the same rank and then moving the rook to the square that the king passed over in a move.
+        There are two types of castle: short castle and long castle.
+        <br><br>
+        How to do short castle?
+        <br><br>
+        Look at this position.
+        <div class="img-container">
+            <img src="img.code/Screenshot (707).png" class="img" alt="Chess board">
+        </div>
+        <br><br>
+        If you want to castle then the king will go to g1 and the rook will come to f1 square. For example_
+        <br><br>
+        <div class="img-container">
+            <img src="img.code/Screenshot (708).png" class="img" alt="Chess board">
+        </div>
+        <br><br>
+        Let's talk about long castle. Short castle and long castle is same in imporatance. Look
+        at the position in below
+        <br><br>
+        <div class="img-container">
+            <img src="img.code/Screenshot (709).png" class="img" alt="Chess board">
+        </div>
+        <br><br>
+        Now if you want to castle then you have move your king in c1 and rook to d1 square.
+        Like the example below
+        <br><br>
+        <div class="img-container">
+            <img src="img.code/Screenshot (710).png" class="img" alt="Chess board">
+        </div>
+        <br><br>
+        If you want to castle then he have to maintain some rules of castling.
+        You have to ensure the things-
+        <ul>
+            <li>Is the king in a check or not,</li>
+            <li>king has been moved once or not,</li>
+            <li>rook which he wants to use to castle has been moved once or not,</li>
+            <li>all squares in between king and rook is empty or not</li>
+        </ul>
+        Also you have to ensure that, the squares that king will use to go it must be free from check.
+        If someone does short castle then their king and rook goes to kingside and if someone
+        does long castle then their king and rook goes to queenside. Doing castling earlier is a
+        golden rule of chess. By doing castling, someone can protect their king also activates
+        their rook. 
+        <br><br>
+        But sometimes castling might be very dangerous if someone have been attacked
+        by opponent’s minor pieces and major pieces. After castling be careful about the 
+        backrank checkmate. To avoid it you have push pawn of h file (if king side). Must 
+        be careful about this, if it is middle game then if the pawn structure is not good 
+        in castle side then it may be dangerous for king. Overall castling gives potential 
+        power to win the game and also reduce the chances of losing. For castling must 
+        ensure the rules and avoid castling if it is not good (that we have written in top).
+        <br><br><br><br>
+        Now it's time to solve some puzzle regarding to castle.
+        <br><br>
+        <div class="img-container">
+            <img src="img.code/Screenshot (711).png" class="img" alt="Chess board">
+        </div>
+        <br><br>
+        <details>
+            <br>
+            In this position firstly long castle should be done or queen to d2 can be played. However here may
+            be more good moves.
+            <summary>
+                White is in a dangerous position. The dark square bishop can pin the queen. Also it
+                can capture h2 pawn. What should you play in this position? You can discuss about this position with
+                other players in your rating.
+            </summary>
+        </details>
+    </div>
+    <br><br><br><br>
+    <div class="contenteditable" contenteditable="true" id="editable" oninput="saveText()">Add important notes:</div>
+    <br><br>
+    <script src="editable.js"></script>
+</body>
+</html>
